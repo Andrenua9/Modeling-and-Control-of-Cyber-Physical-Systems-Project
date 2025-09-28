@@ -1,0 +1,3 @@
+ In this project, we present a practical implementation of distributed control for a multi-agent Cyber-Physical System (CPS), composed of multiple magnetic levitation (Maglev) units. The system under consideration consists of seven identical Maglev agents: 
+ one designated as the leader node and the remaining six as follower nodes. The goal of the project is thus to design and implement a distributed control protocol that enables the follower agents to track the leader’s behavior. To achieve this, we implement a
+ local state-feedback controller and conduct simulations with two different observer structures: a local observer and a distributed cooperative observer.
